@@ -1,0 +1,37 @@
+:root{
+    --cor0:#73605A;
+    --cor1:#BFB3A8;
+    --cor2:#F2F2F0;
+    --cor3:#A5BF7E;
+    --cor4:#133340;
+}
+body{
+    background-color: var(--cor3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#content{
+    width: 350px;
+    height:350px;
+    border-radius: 25%;
+    background-image:linear-gradient(to right,var(--cor1),var(--cor0) );
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+#clock h1{
+    text-align: center;
+}
+#b{
+    width: 175px;
+    background-color: var(--cor1);
+    margin-left: 55px;
+}
+#clock button {
+  padding: 15px;
+  border:none;
+  width: 100px;
+  background-color:var(--cor4);
+  color: var(--cor0);
+}
